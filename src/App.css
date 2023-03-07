@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans serif;
+
+  color: #fff;
+  height: 100vh;
+  background-image: url("./img/552180.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 30vh;
+}
+
+.header {
+  padding: 50px 20px 30px 20px;
+}
+.header h1 {
+  font-size: 50px;
+  text-shadow: 1px rgba(0, 0, 0, 0.9);
+  padding: 0px 0px 10px;
+  color: rgb(92, 29, 6);
+  cursor: pointer;
+}
+.header input {
+  width: 70%;
+  padding: 10px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid rgb(92, 29, 6);
+  text-align: center;
+  font-size: 15px;
+  color: rgb(92, 29, 6);
+}
+
+.city {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+
+  color: rgb(197, 196, 200);
+  font-size: 35px;
+  margin-top: 20px;
+}
+.temp {
+  margin-top: 50px;
+  font-size: 60px;
+  text-shadow: 1px 5px rgb(0, 0, 0, 0.5);
+}
+.desc {
+  font-size: 20px;
+
+  margin-top: 20px;
+}
+.minmax {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.cityComponent {
+  width: 100%;
+  padding: 50px;
+  background: rgb(0, 0, 0, 0.5);
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.homeArticle {
+  margin-top: 60px;
+  width: 90%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homeArticle > div {
+  margin: 20px 15px;
+}
+.navigation {
+  background: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
